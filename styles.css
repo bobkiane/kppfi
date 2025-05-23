@@ -1,0 +1,92 @@
+/* General body styles */
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+#container {
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  color: #333;
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 10px;
+}
+
+/* Section Paragraph */
+section p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Task List */
+.task-list {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s ease;
+}
+
+.task-list li:last-child {
+  border-bottom: none;
+}
+
+.task-list li:hover {
+  background-color: lightblue;
+}
+
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #eee;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
